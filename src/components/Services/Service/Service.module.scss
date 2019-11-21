@@ -1,0 +1,87 @@
+$gold: #FFB646;
+
+.Service {
+    min-width: 20em;
+    flex: 0 1;
+    
+    margin: 1em 0;
+    overflow: hidden;
+
+    .Main {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+
+        color: $gold;
+
+        .Name {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5em;
+
+            color: #C4C4C4;
+            background-color: #232323;
+
+            padding-right: 5px;
+        }
+
+        .Price {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3em;
+            font-weight: 300;
+
+            color: $gold;
+            background-color: #232323;
+
+            padding: 2px 0 0 5px;
+        }
+
+        &:after {
+            float: left;
+            width: 0;
+            white-space: nowrap;
+            padding-top: 7px;
+            content:
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . ";
+        }
+    }
+
+    span + span {
+        float: right;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .Description {
+        flex-basis: 100%;
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9em;
+
+        color: #808080;
+
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 720px) {
+    .Service {
+        min-width: 40em;
+
+        .Main {
+            font-size: 1.5em;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .Service {
+        min-width: 35em;
+        margin: 1em 5em;
+
+        .Main {
+            font-size: 1em;
+        }
+    }
+}

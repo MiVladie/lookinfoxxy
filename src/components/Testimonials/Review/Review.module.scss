@@ -1,0 +1,80 @@
+$gold: #FFB646;
+
+.Review {
+    min-width: 20em;   
+    min-height: 25em;
+
+    flex: 0;
+
+    margin: 1em 2em;
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+
+    background-color: #363636;
+    border-radius: 8px;
+    box-shadow: 0 3px 11px rgba(0, 0, 0, 0.16);
+
+    transition: all 0.4s;
+
+    &:hover {
+        transform: scale(1.025);
+    }
+
+    .Rating {
+        height: 20%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+
+        margin: 2em 0 0;
+
+        .Stars {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .Star {
+                max-width: 1.35em;
+                margin: 0 4px;
+            }
+        }
+
+        .Line {
+            width: 3.25em;
+            margin: 1.5em 0;
+            border-bottom: 1px solid $gold;
+        }
+    }
+
+    .Text {
+        width: 85%;
+        height: 60%;
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1em;
+        font-weight: 300;
+        line-height: 1.5em;
+
+        text-align: center;
+
+        color: #989898;
+    }
+
+    .Name {
+        height: 20%;
+
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 1.25em;
+
+        text-transform: uppercase;
+        line-height: 1.5em;
+
+        text-align: center;
+
+        color: white;
+    }
+}

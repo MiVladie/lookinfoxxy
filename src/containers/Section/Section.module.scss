@@ -1,0 +1,99 @@
+$gold: #FFB646;
+$lightGrey: #232323;
+$darkGrey: #151515;
+
+.Section {
+    width: 100%;
+
+    background-color: $lightGrey;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+    padding-bottom: 2em;
+    
+    &:nth-child(2n) {
+        background-color: $darkGrey;
+    }
+
+    .Main {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+
+        margin: 3em 0;
+
+        font-size: 1em;
+
+        .Name {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5em;
+
+            color: white;
+        }
+
+        .Separation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 1em 0 2.5em;
+
+            .Line {
+                width: 1.75em;
+                height: 1.75px;
+                background-color: $gold;
+                margin: 0 3px;
+            }
+
+            .Square {
+                width: 0.4em;
+                height: 0.4em;
+
+                background-color: $gold;
+                margin: 0 6px;
+
+                transform: rotateZ(45deg);
+
+                &:nth-child(3) {
+                    transform: rotateZ(45deg) scale(2);
+                }
+            }
+        }
+
+        .Description {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1em;
+            font-weight: 300;
+
+            width: 85%;
+            
+            text-align: center;
+            line-height: 1.5em;
+
+            color: #989898;
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .Section {
+        .Main {
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .Section {
+        .Main {
+            font-size: 1em;
+
+            .Description {
+                width: 65%;
+                line-height: 1.75em;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.Services {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+   
+    .Expand {
+        width: 2.25em;
+        height: 2.25em;
+
+        background-image: url('../../assets/icons/expand.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        margin: 1.5em 40% 0;
+
+        outline: none;
+        cursor: pointer;
+
+        display: flex;
+        justify-content: center;
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.8em;
+            font-weight: 300;
+
+            color: white;
+        }
+    }
+
+    .Collapse {
+        transform: rotateZ(180deg);
+
+        p {
+            padding-top: 1.6em;
+            transform: rotateZ(180deg);
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .Services {
+        .Expand {
+            font-size: 1.5em;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .Services {
+        .Expand {
+            font-size: 1em;
+        }
+    }
+}
