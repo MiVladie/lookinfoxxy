@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8c3af0809c3a5804f762bf6f22388c8",
+    "revision": "7aae0c2f80613058f5872a0107be55d6",
     "url": "/lookinfoxy/index.html"
   },
   {
-    "revision": "c1bdf46a70a3d33d86ba",
-    "url": "/lookinfoxy/static/css/main.00666cc0.chunk.css"
+    "revision": "67bc58514d87f79b9298",
+    "url": "/lookinfoxy/static/css/main.3e61647f.chunk.css"
   },
   {
     "revision": "583886ba6ebe51e48f1b",
     "url": "/lookinfoxy/static/js/2.7a2e9d0a.chunk.js"
   },
   {
-    "revision": "c1bdf46a70a3d33d86ba",
-    "url": "/lookinfoxy/static/js/main.5f67a9ba.chunk.js"
+    "revision": "67bc58514d87f79b9298",
+    "url": "/lookinfoxy/static/js/main.8f3534c5.chunk.js"
   },
   {
     "revision": "2d5eb03408a7be83b477",
     "url": "/lookinfoxy/static/js/runtime-main.490a843c.js"
   },
   {
-    "revision": "bedf63a50bef4052525d63a240155bed",
-    "url": "/lookinfoxy/static/media/background.bedf63a5.jpg"
+    "revision": "c87d4aab6da068a8101484f1a3c9fa67",
+    "url": "/lookinfoxy/static/media/background.c87d4aab.jpg"
   },
   {
     "revision": "b6b2bc245666a07569b522a5da8ecbd2",
