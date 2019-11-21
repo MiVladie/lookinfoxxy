@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/lookinfoxy/static/css/main.00666cc0.chunk.css",
+    "main.js": "/lookinfoxy/static/js/main.5f67a9ba.chunk.js",
+    "main.js.map": "/lookinfoxy/static/js/main.5f67a9ba.chunk.js.map",
+    "runtime-main.js": "/lookinfoxy/static/js/runtime-main.490a843c.js",
+    "runtime-main.js.map": "/lookinfoxy/static/js/runtime-main.490a843c.js.map",
+    "static/js/2.7a2e9d0a.chunk.js": "/lookinfoxy/static/js/2.7a2e9d0a.chunk.js",
+    "static/js/2.7a2e9d0a.chunk.js.map": "/lookinfoxy/static/js/2.7a2e9d0a.chunk.js.map",
+    "index.html": "/lookinfoxy/index.html",
+    "precache-manifest.1eff586b927b3016df52e3a75ab5e80f.js": "/lookinfoxy/precache-manifest.1eff586b927b3016df52e3a75ab5e80f.js",
+    "service-worker.js": "/lookinfoxy/service-worker.js",
+    "static/css/main.00666cc0.chunk.css.map": "/lookinfoxy/static/css/main.00666cc0.chunk.css.map",
+    "static/media/Banner.module.css": "/lookinfoxy/static/media/scroll.4a71e38e.png",
+    "static/media/Services.module.css": "/lookinfoxy/static/media/expand.b6b2bc24.png",
+    "static/media/gallery1.jpeg": "/lookinfoxy/static/media/gallery1.a9a29930.jpeg",
+    "static/media/gallery2.jpg": "/lookinfoxy/static/media/gallery2.09260c7e.jpg",
+    "static/media/gallery3.jpg": "/lookinfoxy/static/media/gallery3.d2983b4f.jpg",
+    "static/media/gallery4.jpg": "/lookinfoxy/static/media/gallery4.4443f133.jpg",
+    "static/media/gallery5.jpg": "/lookinfoxy/static/media/gallery5.b68745ce.jpg",
+    "static/media/gallery6.jpg": "/lookinfoxy/static/media/gallery6.a7387835.jpg",
+    "static/media/gallery7.jpeg": "/lookinfoxy/static/media/gallery7.4165f903.jpeg",
+    "static/media/gallery8.jpg": "/lookinfoxy/static/media/gallery8.bf9c4aac.jpg",
+    "static/media/Navigation.module.css": "/lookinfoxy/static/media/lady.7883f722.png",
+    "static/media/map.png": "/lookinfoxy/static/media/map.75072e8c.png",
+    "static/media/team1.jpeg": "/lookinfoxy/static/media/team1.5d5641e1.jpeg",
+    "static/media/team2.jpg": "/lookinfoxy/static/media/team2.5c63c0b9.jpg",
+    "static/media/team3.jpg": "/lookinfoxy/static/media/team3.9f9083f1.jpg",
+    "static/media/team4.jpg": "/lookinfoxy/static/media/team4.b4152b14.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.490a843c.js",
+    "static/js/2.7a2e9d0a.chunk.js",
+    "static/css/main.00666cc0.chunk.css",
+    "static/js/main.5f67a9ba.chunk.js"
+  ]
+}
