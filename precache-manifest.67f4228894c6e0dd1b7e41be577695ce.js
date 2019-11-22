@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7aae0c2f80613058f5872a0107be55d6",
+    "revision": "561dd9c64d0f3c56b351e82700129c0d",
     "url": "/lookinfoxy/index.html"
   },
   {
-    "revision": "67bc58514d87f79b9298",
-    "url": "/lookinfoxy/static/css/main.3e61647f.chunk.css"
+    "revision": "c6a42c6d3f6139d76527",
+    "url": "/lookinfoxy/static/css/main.d04edaa5.chunk.css"
   },
   {
-    "revision": "583886ba6ebe51e48f1b",
-    "url": "/lookinfoxy/static/js/2.7a2e9d0a.chunk.js"
+    "revision": "bac78b69b83b951e3fb5",
+    "url": "/lookinfoxy/static/js/2.43d43502.chunk.js"
   },
   {
-    "revision": "67bc58514d87f79b9298",
-    "url": "/lookinfoxy/static/js/main.8f3534c5.chunk.js"
+    "revision": "c6a42c6d3f6139d76527",
+    "url": "/lookinfoxy/static/js/main.ac5da098.chunk.js"
   },
   {
     "revision": "2d5eb03408a7be83b477",
@@ -62,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7883f722791b7e9bb8234bc404004aa6",
     "url": "/lookinfoxy/static/media/lady.7883f722.png"
-  },
-  {
-    "revision": "75072e8c6e881788160dcfc2710c0bf1",
-    "url": "/lookinfoxy/static/media/map.75072e8c.png"
   },
   {
     "revision": "4a71e38e71e3db12277aef164bd39443",

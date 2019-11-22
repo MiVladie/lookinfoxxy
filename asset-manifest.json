@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lookinfoxy/static/css/main.3e61647f.chunk.css",
-    "main.js": "/lookinfoxy/static/js/main.8f3534c5.chunk.js",
-    "main.js.map": "/lookinfoxy/static/js/main.8f3534c5.chunk.js.map",
+    "main.css": "/lookinfoxy/static/css/main.d04edaa5.chunk.css",
+    "main.js": "/lookinfoxy/static/js/main.ac5da098.chunk.js",
+    "main.js.map": "/lookinfoxy/static/js/main.ac5da098.chunk.js.map",
     "runtime-main.js": "/lookinfoxy/static/js/runtime-main.490a843c.js",
     "runtime-main.js.map": "/lookinfoxy/static/js/runtime-main.490a843c.js.map",
-    "static/js/2.7a2e9d0a.chunk.js": "/lookinfoxy/static/js/2.7a2e9d0a.chunk.js",
-    "static/js/2.7a2e9d0a.chunk.js.map": "/lookinfoxy/static/js/2.7a2e9d0a.chunk.js.map",
+    "static/js/2.43d43502.chunk.js": "/lookinfoxy/static/js/2.43d43502.chunk.js",
+    "static/js/2.43d43502.chunk.js.map": "/lookinfoxy/static/js/2.43d43502.chunk.js.map",
     "index.html": "/lookinfoxy/index.html",
-    "precache-manifest.106f57487e120a068a3f1651545e98ef.js": "/lookinfoxy/precache-manifest.106f57487e120a068a3f1651545e98ef.js",
+    "precache-manifest.67f4228894c6e0dd1b7e41be577695ce.js": "/lookinfoxy/precache-manifest.67f4228894c6e0dd1b7e41be577695ce.js",
     "service-worker.js": "/lookinfoxy/service-worker.js",
-    "static/css/main.3e61647f.chunk.css.map": "/lookinfoxy/static/css/main.3e61647f.chunk.css.map",
+    "static/css/main.d04edaa5.chunk.css.map": "/lookinfoxy/static/css/main.d04edaa5.chunk.css.map",
     "static/media/Banner.module.css": "/lookinfoxy/static/media/scroll.4a71e38e.png",
     "static/media/Services.module.css": "/lookinfoxy/static/media/expand.b6b2bc24.png",
     "static/media/gallery1.jpeg": "/lookinfoxy/static/media/gallery1.a9a29930.jpeg",
@@ -22,7 +22,6 @@
     "static/media/gallery7.jpeg": "/lookinfoxy/static/media/gallery7.4165f903.jpeg",
     "static/media/gallery8.jpg": "/lookinfoxy/static/media/gallery8.bf9c4aac.jpg",
     "static/media/Navigation.module.css": "/lookinfoxy/static/media/lady.7883f722.png",
-    "static/media/map.png": "/lookinfoxy/static/media/map.75072e8c.png",
     "static/media/team1.jpeg": "/lookinfoxy/static/media/team1.5d5641e1.jpeg",
     "static/media/team2.jpg": "/lookinfoxy/static/media/team2.5c63c0b9.jpg",
     "static/media/team3.jpg": "/lookinfoxy/static/media/team3.9f9083f1.jpg",
@@ -30,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.490a843c.js",
-    "static/js/2.7a2e9d0a.chunk.js",
-    "static/css/main.3e61647f.chunk.css",
-    "static/js/main.8f3534c5.chunk.js"
+    "static/js/2.43d43502.chunk.js",
+    "static/css/main.d04edaa5.chunk.css",
+    "static/js/main.ac5da098.chunk.js"
   ]
 }
