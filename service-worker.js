@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lookinfoxy/precache-manifest.174ab52cc50adb8bed5c91bbf853c973.js"
+  "/lookinfoxy/precache-manifest.b0f1847dcf67c52c87bd1eabeaa58082.js"
 );
 
 self.addEventListener('message', (event) => {

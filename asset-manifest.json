@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lookinfoxy/static/css/main.3cea777a.chunk.css",
-    "main.js": "/lookinfoxy/static/js/main.73a9e386.chunk.js",
-    "main.js.map": "/lookinfoxy/static/js/main.73a9e386.chunk.js.map",
+    "main.css": "/lookinfoxy/static/css/main.a9d36d9e.chunk.css",
+    "main.js": "/lookinfoxy/static/js/main.c9c73969.chunk.js",
+    "main.js.map": "/lookinfoxy/static/js/main.c9c73969.chunk.js.map",
     "runtime-main.js": "/lookinfoxy/static/js/runtime-main.490a843c.js",
     "runtime-main.js.map": "/lookinfoxy/static/js/runtime-main.490a843c.js.map",
     "static/js/2.43d43502.chunk.js": "/lookinfoxy/static/js/2.43d43502.chunk.js",
     "static/js/2.43d43502.chunk.js.map": "/lookinfoxy/static/js/2.43d43502.chunk.js.map",
     "index.html": "/lookinfoxy/index.html",
-    "precache-manifest.174ab52cc50adb8bed5c91bbf853c973.js": "/lookinfoxy/precache-manifest.174ab52cc50adb8bed5c91bbf853c973.js",
+    "precache-manifest.b0f1847dcf67c52c87bd1eabeaa58082.js": "/lookinfoxy/precache-manifest.b0f1847dcf67c52c87bd1eabeaa58082.js",
     "service-worker.js": "/lookinfoxy/service-worker.js",
-    "static/css/main.3cea777a.chunk.css.map": "/lookinfoxy/static/css/main.3cea777a.chunk.css.map",
+    "static/css/main.a9d36d9e.chunk.css.map": "/lookinfoxy/static/css/main.a9d36d9e.chunk.css.map",
     "static/media/Banner.module.css": "/lookinfoxy/static/media/scroll.4a71e38e.png",
     "static/media/Services.module.css": "/lookinfoxy/static/media/expand.b6b2bc24.png",
     "static/media/gallery1.jpeg": "/lookinfoxy/static/media/gallery1.a9a29930.jpeg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.490a843c.js",
     "static/js/2.43d43502.chunk.js",
-    "static/css/main.3cea777a.chunk.css",
-    "static/js/main.73a9e386.chunk.js"
+    "static/css/main.a9d36d9e.chunk.css",
+    "static/js/main.c9c73969.chunk.js"
   ]
 }

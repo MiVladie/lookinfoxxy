@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "698824ef6689e31d4a8aa0f06e0ba5ee",
+    "revision": "140562e19837eefd442587efef4666b9",
     "url": "/lookinfoxy/index.html"
   },
   {
-    "revision": "03c110c13f24133d475f",
-    "url": "/lookinfoxy/static/css/main.3cea777a.chunk.css"
+    "revision": "de92d89aabf9ede802aa",
+    "url": "/lookinfoxy/static/css/main.a9d36d9e.chunk.css"
   },
   {
     "revision": "bac78b69b83b951e3fb5",
     "url": "/lookinfoxy/static/js/2.43d43502.chunk.js"
   },
   {
-    "revision": "03c110c13f24133d475f",
-    "url": "/lookinfoxy/static/js/main.73a9e386.chunk.js"
+    "revision": "de92d89aabf9ede802aa",
+    "url": "/lookinfoxy/static/js/main.c9c73969.chunk.js"
   },
   {
     "revision": "2d5eb03408a7be83b477",
