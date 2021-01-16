@@ -2,11 +2,11 @@ import React from 'react';
 
 import star from '../../../assets/icons/star.png';
 
-import classes from './Review.module.css';
+import classes from './Review.module.scss';
 
 const review = ({ rate, text, name }) => {  
     let stars = [...new Array(rate)].map((_, index) => 
-        <img className = { classes.Star } src = { star } alt = '' key = { index } />
+        <img className = { classes.Star } src = { star } alt = 'review' key = { index } />
     );
 
     return (

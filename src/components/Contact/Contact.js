@@ -1,8 +1,8 @@
 import React from 'react';
 
-import map from '../../assets/images/map.png';
+import Map from './Map/Map';
 
-import classes from './Contact.module.css';
+import classes from './Contact.module.scss';
 
 const contact = () => {
     return (
@@ -12,17 +12,17 @@ const contact = () => {
                     <h2 className = { classes.Name }>Contact Information</h2>
                     <div className = { classes.SubInfo }>
                         <p>Phone:
-                            <span className = { classes.Gold }> +44 1895 445264</span>
+                            <span className = { classes.Gold }> +44 7342 216193</span>
                         </p>
                     </div>
                     <div className = { classes.SubInfo }>
                         <p>Email:
-                            <span className = { classes.Gold }> foxyhair@gmail.com</span>
+                            <span className = { classes.Gold }> letscomit@gmail.com</span>
                         </p>
                     </div>
                     <div className = { classes.SubInfo }>
                         <p>Website:
-                            <span className = { classes.Gold }> lookinfoxy.co.uk</span>
+                            <span className = { classes.Gold }> letscomit.com</span>
                         </p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const contact = () => {
                     <h2 className = { classes.Name }>Address Information</h2>
                     <div className = { classes.SubInfo }>
                         <p>Address:
-                            <span className = { classes.Grey }> 138 High St, West Drayton<br/>UB7 7BD</span>
+                            <span className = { classes.Grey }> Westminster, London<br/>SW1A 0AA</span>
                         </p>
                     </div>
                     <div className = { classes.SubInfo }>
@@ -49,7 +49,7 @@ const contact = () => {
             </div>
 
             <div className = { classes.Map }>
-                <img src = { map } alt = 'map' />
+                <Map location = {{ lat: 51.5007292, lng: -0.1246254 }} zoom = { 15 } />
             </div>
     	</section>
     );

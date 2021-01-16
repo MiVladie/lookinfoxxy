@@ -11,6 +11,9 @@ $gold: #FFB646;
 
     position: relative;
 
+    filter: brightness(0.2);
+    animation: load 1.5s 0.25s ease-in forwards;
+
     .Background {
         width: 100%;
         height: 100%;
@@ -31,6 +34,9 @@ $gold: #FFB646;
         position: absolute;
 
         text-shadow: 0 2px 7px rgba(0, 0, 0, 0.16);
+
+        opacity: 0;
+        animation: fadeIn 1.5s 1s ease-in-out forwards;
 
         .Unisex {
             font-family: 'Abril Fatface', cursive;
@@ -76,9 +82,21 @@ $gold: #FFB646;
         }
     }
 
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(2em);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .Scroll {
-        width: 2.5em;
-        height: 2.5em;
+        width: 2.25em;
+        height: 2.25em;
 
         background-image: url('../../assets/icons/scroll.png');
         background-size: contain;
@@ -89,14 +107,20 @@ $gold: #FFB646;
         bottom: 0.7em;
 
         outline: none;
+        
+        opacity: 0;
+        animation: fadeIn 1s 1.85s ease-in-out forwards;
+    }
+}
+
+@keyframes load {
+    from {
+        filter: brightness(0.2);
     }
 
-    /*
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    */
+    to {
+        filter: brightness(1);
+    }
 }
 
 @media (min-width: 720px) {

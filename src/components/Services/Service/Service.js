@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './Service.module.css';
+import classes from './Service.module.scss';
 
 const service = ({ name, description, price }) => {
     return (    	

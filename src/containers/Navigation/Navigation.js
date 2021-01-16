@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import classes from './Navigation.module.css';
+import classes from './Navigation.module.scss';
 
 const Navigation = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -14,7 +14,7 @@ const Navigation = () => {
 
         if(!expand) document.body.style.overflow = 'visible';
         else document.body.style.overflow = 'hidden';
-    });
+    }, [expand]);
 
     const expandMenuHandler = (event) => {
         event.preventDefault();
@@ -56,7 +56,7 @@ const Navigation = () => {
 
             <a className = { classes.Brand } href = '#home' onClick = { () => setExpand(false) }>
                 <div className = { classes.Logo } />
-                <div className = { classes.Name } />
+                { /*<div className = { classes.Name } />*/ }
             </a>
 
             <button className = { classes.Menu } onClick = { (event) => expandMenuHandler(event) } />
@@ -83,7 +83,7 @@ const Navigation = () => {
                 </li>
             </ul>
 
-            <a className = { classes.Call } href = 'tel:+441895445264'>Call us</a>
+            <a className = { classes.Call } href = 'tel:+447342216193'>Call us</a>
     	</nav>
     );
 }

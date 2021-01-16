@@ -1,6 +1,4 @@
-import React from 'react';
-
-import classes from './Layout.module.css';
+import './reset.css';
 
 const layout = (props) => {
     return props.children

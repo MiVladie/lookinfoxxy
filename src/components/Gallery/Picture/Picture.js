@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './Picture.module.css';
+import classes from './Picture.module.scss';
 
 const picture = ({ image }) => {
     return (

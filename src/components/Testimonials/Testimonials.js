@@ -2,14 +2,14 @@ import React from 'react';
 
 import Review from './Review/Review';
 
-import classes from './Testimonials.module.css';
+import classes from './Testimonials.module.scss';
 
 const testimonials = () => {
     return (
     	<section className = { classes.Testimonials }>
-    		<Review rate = { 5 } text = "Well I'm from Islington.  Went to this hairdressers Amazing service. Walked out feeling 10 years younger.  My hair felt great" name = 'Jane Coles' />
-    		<Review rate = { 5 } text = "I am a very fussy customer but I have been treated wonderful in here ear after having my eyebrows done for the last few years would recommend this place to anybody" name = 'Clare Kalinowska' />
-    		<Review rate = { 3 } text = "Staff are really nice I always go there to get my eyebrows and hair done never had any problems" name = 'Keanna Peters' />
+    		<Review rate = { 5 } text = "Vivamus aliquet sapien a tellus vulputate congue. Proin aliquet orci sapien, rutrum egestas lacus tempor sit amet. Proin nunc arcu." name = 'Maya Page' />
+    		<Review rate = { 5 } text = "Donec quis risus consequat, faucibus orci vitae, malesuada metus. Duis blandit metus at libero venenatis, eget elementum tortor venenatis." name = 'Cheryl Hansen' />
+    		<Review rate = { 4 } text = "Duis quis ante malesuada, consequat tortor eget, dapibus leo. Nullam imperdiet, erat venenatis pretium convallis, augue augue aliquet dolor, sed vulputate nulla ligula id quam." name = 'Amelia-Rose Hyde' />
     	</section>
     );
 }
